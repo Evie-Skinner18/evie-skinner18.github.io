@@ -58,9 +58,21 @@ main {
   color: #fcf579;
 
 }
+.hello a {
+  color: dodgerblue;
+
+}
 
 .arabic {
   font-family: 'Rakkas', cursive;
+}
+
+.description {
+  color: #042c6d;
+}
+
+#list {
+  font-weight: 400;
 }
 
 .article1 {
@@ -77,14 +89,27 @@ main {
 
 
 .contact {
-  width: 50%;
-  height: 10%;
-  background-color: slategray;
-  color: tomato;
-  padding: 10px;
+  color: lightsalmon;
+
 
 }
-.fab fa-facebook {
-  width: 25%;
-  height: 25%;
+
+#icon {
+  /* padding: 5px; */
+}
+
+
+.copyright {
+  color: coral;
+  text-align: center;
+}
+.copyright a {
+  color: coral;
+}
+
+.projects h2 {
+  color: coral;
+}
+.projects p {
+  color: #42f4f4;
 }
