@@ -2,6 +2,12 @@
 
 # My portfolio website
 
+## Tools and Technologies Used
+* HTML
+* CSS
+* Bootstrap
+
+
 ## Features...
 
 
