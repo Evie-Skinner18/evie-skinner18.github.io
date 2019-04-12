@@ -66,8 +66,14 @@ main {
   color: #042c6d;
 }
 
-#list {
+.list {
   font-weight: 400;
+}
+
+.list   a: hover:
+{
+  color: firebrick;
+  text-decoration: none;
 }
 
 .article1 {
