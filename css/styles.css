@@ -70,8 +70,12 @@ main {
   font-weight: 400;
 }
 
-.list   a: hover:
-{
+/* .list   a:hover {
+  color: firebrick;
+  text-decoration: none;
+} */
+
+#more   a:hover {
   color: firebrick;
   text-decoration: none;
 }
