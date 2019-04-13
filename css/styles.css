@@ -1,7 +1,3 @@
-/* * {
-  font-family: 'Rubik', sans-serif;
-} */
-
 
 body {
   background-color: #042c6d;
@@ -86,11 +82,6 @@ main {
 .contact a:hover {
   color: coral;
 }
-
-#icon {
-  /* padding: 5px; */
-}
-
 
 .copyright {
   color: coral;
