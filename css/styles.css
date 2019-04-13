@@ -1,7 +1,3 @@
-/* * {
-  font-family: 'Rubik', sans-serif;
-} */
-
 
 body {
   background-color: #042c6d;
@@ -87,14 +83,11 @@ main {
   color: coral;
 }
 
-#icon {
-  /* padding: 5px; */
-}
-
-
 .copyright {
   color: coral;
   text-align: center;
+  padding: 20px;
+  margin-top: 20px;
 }
 .copyright a {
   color: coral;
