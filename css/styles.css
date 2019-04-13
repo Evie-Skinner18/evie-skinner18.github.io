@@ -86,6 +86,8 @@ main {
 .copyright {
   color: coral;
   text-align: center;
+  padding: 20px;
+  margin-top: 20px;
 }
 .copyright a {
   color: coral;
