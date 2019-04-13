@@ -29,7 +29,7 @@ main {
 .navalicious a {
   color: firebrick;
   text-decoration: none;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
 }
 .navalicious a:hover {
   color: #042c6d;
@@ -70,33 +70,21 @@ main {
   font-weight: 400;
 }
 
-/* .list   a:hover {
-  color: firebrick;
-  text-decoration: none;
-} */
-
 #more   a:hover {
   color: firebrick;
   text-decoration: none;
 }
 
-.article1 {
-  /* text-align: center; */
-  /* margin-left: 50px;
-  margin-right: 50px; */
- }
-
-
-
-
-
-
-
-
 .contact {
   color: lightsalmon;
+}
 
+.contact a {
+  color: dodgerblue;
+}
 
+.contact a:hover {
+  color: coral;
 }
 
 #icon {
