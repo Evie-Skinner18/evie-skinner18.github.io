@@ -10,6 +10,9 @@ function uglify() {
     pageBody.classList.add('ugly');
 }
 
+function beautify() {
+    pageBody.classList
+}
 // activate the button onclick
-// uglifyButton.onclick = uglify();
-uglifyButton.addEventListener('click', uglify());
+uglifyButton.onclick = uglify;
+//uglifyButton.addEventListener('click', uglify());
