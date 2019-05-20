@@ -1,5 +1,5 @@
 
-body {
+.portfolio-body {
   background-color: #042c6d;
   margin: 0;
 }
@@ -44,7 +44,6 @@ main {
   margin: 10px;
 }
 .hello {
-
   color: #fcf579;
   padding-top: 10px;
 }
@@ -96,4 +95,13 @@ main {
 }
 .projects p {
   color: #42f4f4;
+}
+
+.ugly {
+  font-family: 'Times New Roman', Times, serif;
+  background: lightgreen;
+  color: palevioletred;
+  text-align: left;
+  font-size: small;
+  border: 5px dashed orange;
 }
