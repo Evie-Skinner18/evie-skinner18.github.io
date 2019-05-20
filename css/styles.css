@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-main {
+.portfolio-main {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -107,5 +107,9 @@ main {
 }
 
 #ugly-button {
+
+}
+
+#beautify-button {
 
 }
