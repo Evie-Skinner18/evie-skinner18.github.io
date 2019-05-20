@@ -3,9 +3,9 @@
 var pageBody = document.querySelector('.portfolio-body');
 var mainSection = document.querySelector('main');
 var jumbotrons = document.querySelectorAll('.jumbotron');
+// buttons
 var uglifyButton = document.getElementById('ugly-button');
 var beautifyButton = document.getElementById('beautify-button');
-
 
 // function to remove the portfolio-body class and apply the ugly class on click
 function uglify() {
