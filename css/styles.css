@@ -116,6 +116,9 @@
 
 .english-translation {
 
-  font-family: inherit;
-  
+  font-family: inherit;  
+}
+
+#nabvar-translation-links {
+    text-align: right;
 }

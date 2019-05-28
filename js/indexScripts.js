@@ -2,26 +2,6 @@
 var arabicScriptElements = document.querySelectorAll('.arabic');
 
 
-
-
-// activate the translation on hover
-// arabicScriptElements.forEach(element => {
-
-//     // translate to Arabic and Persian
-//     function translateArabicAndPersian() {
-//         element.classList.remove('arabic');
-
-//         if(element.textContent = 'اللغة العربية') {
-//             element.innerHTML = 'Arabic';
-//         }
-//         else if(element.textContent = 'فارسی') {
-//             element.innerHTML = 'Persian';
-//         }
-//     }
-
-//     element.addEventListener('mouseover', translateArabicAndPersian);
-// });
-
 // to-do: make this DRY
 function translateArabic() {
     arabicScriptElements[0].classList.remove('arabic');
