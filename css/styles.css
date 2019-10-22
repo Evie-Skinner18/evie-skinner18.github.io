@@ -27,6 +27,7 @@
   text-decoration: none;
   letter-spacing: 15px;
 }
+
 .navalicious a:hover {
   color: #042c6d;
 }
@@ -40,14 +41,17 @@
   overflow: hidden;
   padding-top: 60px;
 }
+
 .main-img {
   border-radius: 50%;
   margin: 10px;
 }
+
 .hello {
   color: #fcf579;
   padding-top: 10px;
 }
+
 .hello a {
   color: dodgerblue;
 }
@@ -87,6 +91,7 @@
   padding: 20px;
   margin-top: 20px;
 }
+
 .copyright a {
   color: coral;
 }
@@ -94,6 +99,7 @@
 .projects h2 {
   color: coral;
 }
+
 .projects p {
   color: #42f4f4;
 }
@@ -116,7 +122,6 @@
 }
 
 .english-translation {
-
   font-family: inherit;  
 }
 
