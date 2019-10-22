@@ -1,40 +1,19 @@
 
 
-# My portfolio website
+# My Portfolio Website
+
+## Purpose and Vision
+I originally started this website as a front end project at the Sparta Global Academy. Since then I have been adding content and features to it, as my portfolio has grown. I often like to make tweaks to this website as an exercise to keep my front end skills fresh.
+
+Since my completion of the Sparta Academy bootcamp, I have expanded the content of the site to include musical projects as well as software engineering ones. I hope you enjoy using my website [here](https://evie-skinner18.github.io/sparta-global-portfolio/index.html)! Please don't hesitate to give me feedback or submit an [issue](https://github.com/Evie-Skinner18/sparta-global-portfolio/issues), as I am always keen to improve.
 
 ## Tools and Technologies Used
 * HTML
 * CSS
+* Vanilla JavaScript
 * Bootstrap
 
 
-## Features...
-
-
-* I have included three different fonts
-* I used a hexadecimal colour picker to choose the colour palette
-* I used the Bootstrap grid system to structure the content inside the jumbotron of the homepage, and the featured content of the Projects page.
-
-* I have used only HTML and CSS to make the Navbar:
-
-```HTML
-<nav class="navalicious">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="projects.html">Projects</a>
-  <a href="photos.html">Photos</a>
-  <a href="videos.html">Videos</a>
-
-</nav>```
-
-``` CSS
-.navalicious a {
-  color: firebrick;
-  text-decoration: none;
-  letter-spacing: 5px;
-}
-.navalicious a:hover {
-  color: #042c6d;
-} ```
+## Enjoy life! :sunglasses:
 
 
