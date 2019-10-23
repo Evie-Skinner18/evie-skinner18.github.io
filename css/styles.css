@@ -92,10 +92,6 @@
   margin-top: 20px;
 }
 
-.copyright a {
-  color: coral;
-}
-
 .projects h2 {
   color: coral;
 }
@@ -131,4 +127,5 @@
 
 .icon {
   font-size: 30pt;
+  margin-bottom: 2%;
 }
