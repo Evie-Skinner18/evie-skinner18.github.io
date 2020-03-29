@@ -1,8 +1,6 @@
 // languages displayed in Arabic script
 var arabicScriptElements = document.querySelectorAll('.arabic');
 
-
-// to-do: make this DRY
 function translateArabic() {
     arabicScriptElements[0].classList.remove('arabic');
     arabicScriptElements[0].innerHTML = 'Arabic';
