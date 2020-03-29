@@ -1,9 +1,10 @@
 {{#each items}}
     <div class="repoContainer">
-        <p class="name"><span>Name:</span> {{name}}</p>
+        <h3 class="name">{{name}}</h3>
+        <p class="language"><span>Language:</span> {{language}}</p>
         <p class="forks"><span>Number of forks:</span> {{forks}}</p>
         <p class="stars"><span>Number of stars:</span> {{stargazers_count}}</p>
         <p class="description"><span>Description:</span> {{description}}</p>
-        <p class="url"><span>URL:</span> {{url}}</p>
+        <a target="_blank" rel="noopener noreferrer" href="{{html_url}}"><i class="fab fa-github icon"></i></a>
     </div>
 {{/each}}

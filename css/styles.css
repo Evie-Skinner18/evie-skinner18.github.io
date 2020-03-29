@@ -92,8 +92,8 @@
   margin-top: 20px;
 }
 
-.projects h2 {
-  color: coral;
+.projects h3 {
+  color: lightsalmon;
 }
 
 .projects p {
@@ -108,6 +108,14 @@
   font-size: small;
   border: 5px dashed orange;
 }
+
+.ugly span {
+  color: darkgoldenrod;
+}
+
+/* .ugly p {
+  background-color: darkviolet;
+} */
 
 #ugly-button {
 

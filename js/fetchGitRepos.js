@@ -10,7 +10,7 @@ fetch('https://api.github.com/search/repositories?q=user:Evie-Skinner18').then(f
   }).then(function (repoTemplate) {
     var htmlTemplate = Handlebars.compile(repoTemplate);
     var gitRepos = htmlTemplate(githubApiData);
-    document.querySelector('.repoContainer').textContent = gitRepos;
+    document.querySelector('.repoContainer').innerHTML = gitRepos;
   });
 });
 
