@@ -9,14 +9,10 @@ fetch('https://api.github.com/search/repositories?q=user:Evie-Skinner18').then(f
     return handlebarsTemplateData.text();
   }).then(function (repoTemplate) {
     var htmlTemplate = Handlebars.compile(repoTemplate);
-    var gitRepos = htmlTemplate(githubApiData);
+    var eviesTopSixRepos = {};
+
+    eviesTopSixRepos.items = githubApiData.items.slice(0,6);
+    var gitRepos = htmlTemplate(eviesTopSixRepos);
     document.querySelector('.repoContainer').innerHTML = gitRepos;
   });
 });
-
-// let gitHubData = fetch('https://api.github.com/search/repositories?q=user:Evie-Skinner18')
-// .then(function (jsonData) {
-//     return jsonData.json()
-// });
-
-// console.log(gitHubData);
