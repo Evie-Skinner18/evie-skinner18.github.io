@@ -12,6 +12,7 @@ Since my completion of the Sparta Academy bootcamp, I have expanded the content 
 * CSS
 * Vanilla JavaScript
 * Bootstrap
+* Handlebars
 
 
 ## Enjoy life! :sunglasses:
