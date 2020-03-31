@@ -1,9 +1,9 @@
 {{#each items}}
-    <div class=" card repoContainer">
+    <div class="thumbnail repoContainer">
         <h3 class="name">{{name}}</h3>
         <p class="language"><span>Language:</span> {{language}}</p>
-        <p class="forks"><span>Number of forks:</span> {{forks}}</p>
-        <p class="stars"><span>Number of stars:</span> {{stargazers_count}}</p>
+        <p class="forks"><span><i class="fas fa-code-branch"></i></span> {{forks}}</p>
+        <p class="stars"><span><i class="fas fa-star"></i></span> {{stargazers_count}}</p>
         <p class="description"><span>Description:</span> {{description}}</p>
         <a target="_blank" rel="noopener noreferrer" href="{{html_url}}"><i class="fab fa-github icon"></i></a>
     </div>

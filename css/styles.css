@@ -143,5 +143,6 @@ html {
 
 .repoContainer {
   border: 5px double #42f4f4;
+  background-color: #042c6d;
   padding: 2%;
 }
