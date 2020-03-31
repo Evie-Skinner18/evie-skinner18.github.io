@@ -3,6 +3,7 @@
 var pageBody = document.querySelector('.portfolio-body');
 var mainSection = document.querySelector('main');
 var jumbotrons = document.querySelectorAll('.jumbotron');
+var thumbnails = document.querySelectorAll('.thumbnail');
 // buttons
 var uglifyButton = document.getElementById('ugly-button');
 var beautifyButton = document.getElementById('beautify-button');
@@ -17,6 +18,11 @@ function uglify() {
         jumbotron.classList.remove('description');
     });
 
+    thumbnails.forEach(thumbnail => {
+        thumbnail.classList.remove('thumbnail');
+        thumbnail.classList.remove('description');
+    });
+
     pageBody.classList.add('ugly');   
 }
 
@@ -29,6 +35,11 @@ function beautify() {
     jumbotrons.forEach(jumbotron => {
         jumbotron.classList.add('jumbotron')
         jumbotron.classList.add('description');
+    });
+
+    thumbnails.forEach(thumbnail => {
+        thumbnail.classList.add('thumbnail');
+        thumbnail.classList.add('description');
     });
 }
 
