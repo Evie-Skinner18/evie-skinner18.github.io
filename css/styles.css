@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 .portfolio-body {
   font-family: 'Rubik', sans-serif;
@@ -62,10 +65,16 @@
 
 .description {
   color: #042c6d;
+  background-color:lightgrey;
 }
 
 .list {
   font-weight: 400;
+  font-size: 21px;
+}
+
+#technologies {
+  font-size: 30px;
 }
 
 #more   a:hover {
@@ -74,31 +83,32 @@
 }
 
 .contact {
-  color: lightsalmon;
+  color:#fcf579;
 }
 
-.contact a {
+.contact p {
   color: dodgerblue;
 }
 
 .contact a:hover {
-  color: coral;
+  color: #fcf579;
 }
 
 .copyright {
-  color: coral;
+  color: #fcf579;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
 }
 
-.projects h2 {
-  color: coral;
+#ugly-button {
+  background-color: lightgreen;
 }
 
-.projects p {
-  color: #42f4f4;
+#beautify-button {
+  background-color: firebrick;
 }
+
 
 .ugly {
   font-family: 'Times New Roman', Times, serif;
@@ -109,13 +119,23 @@
   border: 5px dashed orange;
 }
 
-#ugly-button {
-
+.ugly h2 {
+  color: palevioletred;
 }
 
-#beautify-button {
-
+.ugly span {
+  color: darkgoldenrod;
 }
+
+.ugly section {
+  border: 2px dotted green;
+}
+
+.ugly-repo {
+  border: 5px double #42f4f4;
+  background-color: #042c6d;
+}
+
 
 .english-translation {
   font-family: inherit;  
@@ -129,3 +149,17 @@
   font-size: 30pt;
   margin-bottom: 2%;
 }
+
+.repoContainer {
+  margin-left: inherit;
+  margin-right: inherit;
+  border: 2px solid #042c6d;
+  background-color: gold;
+  padding: 2%;
+  text-align: left;
+  flex-wrap: wrap-reverse;
+  color: firebrick;
+}
+
+
+
