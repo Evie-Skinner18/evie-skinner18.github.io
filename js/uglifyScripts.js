@@ -1,17 +1,24 @@
 
 // grab the elements you want to manipulate
 var pageBody = document.querySelector('.portfolio-body');
-var mainSection = document.querySelector('main');
+var mainSection = document.querySelector('.portfolio-main');
+var containers = document.querySelectorAll('.container');
 var jumbotrons = document.querySelectorAll('.jumbotron');
 var thumbnails = document.querySelectorAll('.thumbnail');
+var repoContainers = document.querySelectorAll('.repoContainer');
+
 // buttons
 var uglifyButton = document.getElementById('ugly-button');
 var beautifyButton = document.getElementById('beautify-button');
 
-// function to remove the portfolio-body class and apply the ugly class on click
+// function to remove the nice classes and apply the ugly classes on click
 function uglify() {
     pageBody.classList.remove('portfolio-body');
     mainSection.classList.remove('portfolio-main');
+
+    containers.forEach(container => {
+        container.classList.remove('container');
+    });
 
     jumbotrons.forEach(jumbotron => {
         jumbotron.classList.remove('jumbotron')
@@ -23,6 +30,11 @@ function uglify() {
         thumbnail.classList.remove('description');
     });
 
+    repoContainers.forEach(repoContainer => {
+        repoContainer.classList.remove('repoContainer')
+        repoContainer.classList.add('ugly-repo');
+    });
+
     pageBody.classList.add('ugly');   
 }
 
@@ -32,6 +44,10 @@ function beautify() {
     pageBody.classList.add('portfolio-body');
     mainSection.classList.add('portfolio-main');
 
+    containers.forEach(container => {
+        container.classList.add('container');
+    });
+
     jumbotrons.forEach(jumbotron => {
         jumbotron.classList.add('jumbotron')
         jumbotron.classList.add('description');
@@ -40,6 +56,11 @@ function beautify() {
     thumbnails.forEach(thumbnail => {
         thumbnail.classList.add('thumbnail');
         thumbnail.classList.add('description');
+    });
+
+    repoContainers.forEach(repoContainer => {
+        repoContainer.classList.remove('ugly-repo');
+        repoContainer.classList.add('repoContainer');
     });
 }
 
